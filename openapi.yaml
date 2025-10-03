@@ -690,13 +690,7 @@ components:
           examples:
             - usr_abc123
         badges:
-          type: array
-          items:
-            $ref: "#/components/schemas/badge"
-        assignments:
-          type: array
-          items:
-            $ref: "#/components/schemas/assignment"
+          items: $rcomponents/schemas/assignment"
         activity:
           type: array
           items:
