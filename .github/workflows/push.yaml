@@ -20,7 +20,7 @@ jobs:
           organization: "testing_redocly"
           project: "phronesis-catch-up-vadym-stanislav"
           mountPath: "/cicd"
-          files: "index.md, openapi.yaml"
+          files: "index.md openapi.yaml"
           domain: "https://app.cloud.redocly.com"
         env:
           REDOCLY_AUTHORIZATION: ${{ secrets.REDOCLY_AUTHORIZATION }}
