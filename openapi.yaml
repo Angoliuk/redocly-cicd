@@ -657,12 +657,7 @@ components:
                 type: string
                 examples:
                   - Who we are
-                  - Onboarding Part 1
-              minScore:
-                type: number
-                examples:
-                  - 0.85
-              maxAttempts:
+
                 type: integer
                 examples:
                   - 1
@@ -677,12 +672,6 @@ components:
             - "2023-02-19T11:21:36Z"
           format: date-time
         updatedAt:
-          type: string
-          examples:
-            - "2023-02-19T11:21:36Z"
-          format: date-time
-      additionalProperties: false
-    userDetail:
       type: object
       properties:
         id:
@@ -690,16 +679,9 @@ components:
           examples:
             - usr_abc123
         badges:
-          type: array
-          items:
-            $ref: "#/components/schemas/badge"
-        assignments:
-          type: array
-          items:
-            $ref: "#/components/schemas/assignment"
+          items: $rcomponents/schemas/assignment"
         activity:
-          type: array
-          items:
+          typ
             $ref: "#/components/schemas/activity"
       additionalProperties: false
     userSummary:
